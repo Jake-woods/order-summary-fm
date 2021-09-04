@@ -1,0 +1,124 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+}
+
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1em;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 25em;
+}
+
+@media (max-width: 420px) {
+  .card {
+    width: 22.5em;
+  }
+}
+
+.card__padding {
+  padding: 2em;
+}
+
+.card__title {
+  color: #1f2f56;
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.card__description {
+  color: #7280a7;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card__music-icon {
+  margin-right: 1em;
+}
+
+.card__row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  border-radius: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+}
+
+.card__plan {
+  color: #1f2f56;
+  display: block;
+  margin-bottom: .415em;
+}
+
+.card__price {
+  color: #7280a7;
+  margin: 0;
+}
+
+.card__change-plan {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: .90rem;
+  margin-left: auto;
+}
+
+.card__proceed {
+  background: #3829e0;
+  border-radius: .75em;
+  -webkit-box-shadow: 0.1em 0.3em 0.3em rgba(0, 0, 0, 0.25);
+          box-shadow: 0.1em 0.3em 0.3em rgba(0, 0, 0, 0.25);
+  color: #fff;
+  margin: 1.75em 0 1em 0;
+  padding: 1em;
+  width: 100%;
+}
+
+.card__proceed:hover {
+  background: #4b36ff;
+}
+
+.card__cancel {
+  color: #7280a7;
+  margin: 1.75em 0 1em 0;
+  text-align: center;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
