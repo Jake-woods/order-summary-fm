@@ -98,6 +98,12 @@ body {
   font-weight: 700;
   font-size: .90rem;
   margin-left: auto;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.card__change-plan:hover {
+  color: #251b96;
 }
 
 .card__proceed {
@@ -112,7 +118,7 @@ body {
 }
 
 .card__proceed:hover {
-  background: #4b36ff;
+  background: #251b96;
 }
 
 .card__cancel {
@@ -120,5 +126,9 @@ body {
   margin: 1.75em 0 1em 0;
   text-align: center;
   width: 100%;
+}
+
+.card__cancel:hover {
+  color: #4c556f;
 }
 /*# sourceMappingURL=styles.css.map */
