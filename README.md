@@ -1,4 +1,5 @@
 # Frontend Mentor - Order summary card
+## Status: Complete
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
@@ -19,7 +20,3 @@ You can use any tools you like to help you complete the challenge. So if you've 
 Your users should be able to:
 
 - See hover states for interactive elements
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-## Status: Complete
